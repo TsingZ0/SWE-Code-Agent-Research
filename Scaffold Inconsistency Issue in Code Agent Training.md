@@ -43,7 +43,7 @@ A model trained on trajectories collected under one scaffold may perform poorly 
 
 # Open-sourced Data Filtering and Selection
 
-**Why not collect our own trajectories?** Gathering 20K resolved trajectories (~40K attempts at ~50% resolve rate) produces ~26B input and ~1.1B output tokens due to context accumulation across turns; even with prompt caching (~70% cache hit rate), estimated API costs range from **~$4K** (DeepSeek-V4-Pro) to **~$81K** (GPT-5.5). Repeating this process for each agent scaffold would result in substantial resource waste, so we use identical open-sourced data across all scaffolds in our experiments.
+**Why not collect our own trajectories?** Gathering 20K resolved trajectories (~40K attempts at ~50% resolve rate) produces ~26B input and ~1.1B output tokens due to context accumulation across turns; even with prompt caching (~70% cache hit rate), estimated API costs range from ~$4K (DeepSeek-V4-Pro) to ~$81K (GPT-5.5). Repeating this process for each agent scaffold would result in substantial resource waste, so we use identical open-sourced data across all scaffolds in our experiments.
 
 Specifically, we use [SWE-Star](https://huggingface.co/datasets/LogicStar/SWE-Star), a 250K+ sample dataset collected under a **modified OpenHands** scaffold. We intentionally select a single-source dataset so that all training trajectories share a uniform scaffold, isolating the scaffold inconsistency effect in training. This also reflects a broader reality: most high-quality open-source agent SFT datasets available today are derived from OpenHands (often with modifications), making our setup representative of the constraints faced by many practitioners. 
 
