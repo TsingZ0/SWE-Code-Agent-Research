@@ -1,6 +1,5 @@
 # Scaffold Inconsistency Issue in Code Agent Training
 
-**Jianqing Zhang**, ...
 UbiCloud
 
 ---

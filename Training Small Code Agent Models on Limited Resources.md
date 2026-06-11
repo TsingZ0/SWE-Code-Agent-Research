@@ -1,6 +1,5 @@
 # Training Small Code Agent Models on Limited Resources
 
-**Jianqing Zhang**, ...  
 UbiCloud  
 
 ---
