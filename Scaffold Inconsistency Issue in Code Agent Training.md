@@ -1,11 +1,5 @@
 # Scaffold Inconsistency Issue in Code Agent Training
 
-UbiCloud
-
----
-
-# Overview
-
 On [SWE-Bench Verified](https://www.swebench.com/), the same SFT-fine-tuned model resolves between 2 and 112 instances depending solely on which agent scaffold mediates its interaction with the repository:
 
 | | Best Scaffold | Worst Scaffold |

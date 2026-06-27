@@ -1,11 +1,5 @@
 # Training Small Code Agent Models on Limited Resources
 
-UbiCloud  
-
----
-
-# Overview
-
 Training effective SWE agent models demands **enormous compute and data**, resources inaccessible to most teams. Can competitive agents be built under **severely limited resources**?
 
 ![SWE-bench Verified performance vs. training FLOPs for LLM agents.](figs/swe_training_flops_bubble_chart.png)  
